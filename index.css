@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik+Glitch+Pop&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(20, 28, 23);
+  background-color: rgb(196, 255, 251);
+  color: antiquewhite;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  /* background-color: #fff; */
+  padding: 24px;
+  font-size: 24px;
+  font-family: 'Rubik Glitch Pop', system-ui;
+  font-weight: 600;
+  color: #000;
+  margin: 24px;
+}
+
+#root {
+  width: 100%;
+  padding: 0px 64px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#price {
+  height: 200px;
+  width: 100%;
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.img-container {
+  border: 5px solid yellow;
+  padding: 32px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 16px;
+  height: 240px;
+}
+
+#img {
+  height: 100%;
+  width: 100%;
+}
